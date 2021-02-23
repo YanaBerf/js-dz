@@ -20,7 +20,7 @@ const products = [
 //}
 //renderProducts(products);
 
-/*const renderProduct = (item,) => `<div class="product-item" data-id="${this.id}">
+const renderProduct = (item,) => `<div class="product-item" data-id="${this.id}">
     <div class="desc">
     <h3>${item.title}</h3>
     <p>${item.price}</p>
@@ -31,10 +31,10 @@ const products = [
         document.querySelector('.products').insertAdjacentHTML('beforeend', list.map(item => renderProduct(item)).join(''));
 
     };
-    renderProducts(products);*/
+    renderProducts(products);
 
 
-products.forEach
+
   
 
 

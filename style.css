@@ -1,0 +1,15 @@
+.products {
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .product-item {
+        width: 100px;  
+    }
+    
+    .btn-cart {
+        margin-left: 1100px;
+    }
+    .buy-btn {
+        width: 100px;
+    }

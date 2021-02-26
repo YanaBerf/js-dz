@@ -1,4 +1,23 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+justify-content: space-between;
+background-color: lightgrey;
+margin-bottom: 50px;
+}
+
+.btn-cart {
+    background-color: grey;
+    padding: 15px;
+margin: 15px;
+border: none;
+}
+
 .products {
+
     display: flex;
     justify-content: space-around;
     }
@@ -7,9 +26,6 @@
         width: 100px;  
     }
     
-    .btn-cart {
-        margin-left: 1100px;
-    }
     .buy-btn {
         width: 100px;
     }
